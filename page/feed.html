@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/mdb.min.css">
+    <link rel="stylesheet" href="../assets/css/style.min.css">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <style>
+        body{
+            font-family: Candara;
+            overflow-x: hidden;
+            background-color: #eeeeff;
+        }
+        .custom-text{
+            color: #333366;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar navbar-expand-lg navbar-dark fixed-top "  style="background-color: #333366">
+        <div class="container">
+            <div class="navbar-brand">SHCommunity</div>
+            <ul class="navbar-nav float-right">
+                <li class="nav-item">
+                    <a href="" class="nav-link" data-target="#notification-collapse"  data-toggle="collapse"><span class="fa fa-bell"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link" data-toggle="dropdown"><span class="fa fa-users"></span></a>
+                    <div class="dropdown-menu rounded-0 mt-1">
+                        <a href="" class="dropdown-item">
+                            <span class="fa fa-envelope"></span>
+                            <span class="">Se déconnecter</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link" data-toggle="dropdown"><span class="fa fa-envelope"></span></a>
+                    <div class="dropdown-menu rounded-0 mt-1">
+                        <a href="" class="dropdown-item">
+                            <span class="fa fa-envelope"></span>
+                            <span class="">Se déconnecter</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span>Pedro Muniez</span></a>
+                    <div class="dropdown-menu rounded-0 mt-1">
+                        <a href="" class="dropdown-item">
+                            <span class="fa fa-user"></span>
+                            <span class="">Profile</span>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <span class="fa fa-sign-out-alt"></span>
+                            <span class="">Se déconnecter</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="notification-collapse" class="position-fixed white shadow collapse p-1" style="top: 50px; left: 80%; width: 20%">
+        <div class="">
+            <a class="media dropdown-item">
+                <div class="media-left"><span class="fa fa-bell fa-2x"></span></div>
+                <div class="media-body">
+                    <span>Koffi Landri à commenté votre photo de profile</span>
+                    <div>
+                        <small class="float-right text-muted">Il y 15 min</small>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="message-collapse" class="position-fixed white shadow collapse" style="top: 50px; left: 80%; width: 20%">
+
+    </div>
+    <div id="profile-collapse" class="position-fixed white shadow collapse" style="top: 50px; left: 80%; width: 20%">
+
+    </div>
+
+    <div class="row mt-5 pt-2">
+        <div class="col-9 p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="shadow white">
+                            <div class="orange p-5"></div>
+                            <div class="p-2 d-flex">
+                                <div>
+                                    <img src="../assets/img/p9.jpg" width="75" height="75" class="rounded-circle" style="border: 5px solid white; position: relative; top: -40px" alt="">
+                                </div>
+                                <div>
+                                    <h5 class="font-weight-bold">Pedro Muniez</h5>
+                                    <span><b>198</b> followers</span> |
+                                    <span><b>199</b> follows</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p></p>
+                        <div class="shadow white p-2">
+                            <ul class="nav flex-column">
+                                <li class="nav-item p-2">
+                                    <a href="" class="row custom-text">
+                                        <div class="col-2"><span class="fa fa-image"></span></div>
+                                        <div class="col-8"><span>Photos</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a href="" class="row custom-text">
+                                        <div class="col-2"><span class="fa fa-movie"></span></div>
+                                        <div class="col-8"><span>Videos</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a href="" class="row custom-text">
+                                        <div class="col-2"><span class="fa fa-music"></span></div>
+                                        <div class="col-8"><span>Musiques</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a href="amis.html" class="row custom-text">
+                                        <div class="col-2"><span class="fa fa-user-friends"></span></div>
+                                        <div class="col-8"><span>Amis</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a href="" class="row custom-text">
+                                        <div class="col-2"><span class="fa fa-paper"></span></div>
+                                        <div class="col-8"><span>Blogs</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a href="groups.html" class="row custom-text">
+                                        <div class="col-2"><span class="fa fa-users"></span></div>
+                                        <div class="col-8"><span>Groupes</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a href="local.html" class="row custom-text">
+                                        <div class="col-2"><span class="fa fa-search-location"></span></div>
+                                        <div class="col-8"><span>Géolocaliser</span></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p></p>
+                        <div class="shadow white p-2"></div>
+                    </div>
+                    <div class="col-6">
+                        <div class="shadow white">
+                            <form action="">
+                                <div class="">
+                                    <textarea name="" id="" class="form-control border-0 p-1" cols="30" rows="2 custom-text" placeholder="Quoi de neuf ?"></textarea>
+                                </div>
+                                <div class="nav">
+                                    <a href="" class="nav-link custom-text"><span class="fa fa-image"></span></a>
+                                    <a href="" class="nav-link custom-text"><span class="fa fa-trombone"></span></a>
+                                    <a href="" class="nav-link custom-text"><span class="fa fa-film"></span></a>
+                                </div>
+                            </form>
+                        </div>
+                        <p class="p-1"></p>
+                        <div>
+                            <div class="shadow white">
+                                <div class="p-1 media">
+                                    <div class="media-left">
+                                        <img src="../assets/img/P9.jpg" width="40" height="40" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="d-flex">
+                                            <h6 class="flex-grow-1"><b>Kone Alain Victor</b><br><small class="text-muted">Publié sur son journal</small></h6>
+                                            <small class="text-muted"><i>Il y 35 minutes</i></small>
+                                        </div>
+                                        <div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut facere fugit id velit. Ipsam laudantium necessitatibus nesciunt voluptate voluptates!</p>
+                                        </div>
+                                        <p class="nav">
+                                            <a href="" class="nav-link orange-text"><span class="fa fa-fire"></span><span>21</span></a>
+                                            <a href="" class="nav-link grey-text"><span class="fa fa-comment-alt"></span><span>33</span></a>
+                                            <a href="" class="nav-link grey-text"><span class="fa fa-retweet"></span><span>3</span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p></p>
+                            <div class="shadow white">
+                                <div class="p-1 media">
+                                    <div class="media-left">
+                                        <img src="../assets/img/p9.jpg" width="40" height="40" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="d-flex">
+                                            <h6 class="flex-grow-1"><b>Kone Alain Victor</b><br><small class="text-muted">Publié sur son journal</small></h6>
+                                            <small class="text-muted"><i>Il y 35 minutes</i></small>
+                                        </div>
+                                        <div>
+                                            <img src="../assets/img/graphics(4).png" height="250" class="img-responsive w-100" alt="">
+                                        </div>
+                                        <p class="nav">
+                                            <a href="" class="nav-link grey-text"><span class="fa fa-fire"></span><span>21</span></a>
+                                            <a href="" class="nav-link grey-text"><span class="fa fa-comment-alt"></span><span>33</span></a>
+                                            <a href="" class="nav-link custom-text"><span class="fa fa-retweet"></span><span>3</span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 p-à white">
+                        <div class="white w-100">
+                            <div><b>Tags populaires</b></div>
+                            <div class="nav p-0 flex-column">
+                                <a href="" class="nav-link p-0">#notiwork</a>
+                                <a href="" class="nav-link p-0">#twentieth</a>
+                                <a href="" class="nav-link p-0">#2020</a>
+                                <a href="" class="nav-link p-0">#python_world_chanel</a>
+                                <a href="" class="nav-link p-0">#mosthigth</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="white w-100 shadow position-fixed h-100 p-2">
+                <div>
+                    <div><b>Vous connaisez peut-etre ces personnes</b></div>
+                    <div class="p-2 media">
+                        <div class="media-left">
+                            <img src="../assets/img/p9.jpg" width="40" height="40" class="rounded-circle" alt="">
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">Manz Odepo <br> <small class="text-muted">35 follows en communs</small></h6>
+                        </div>
+                    </div>
+                    <div class="p-2 media">
+                        <div class="media-left">
+                            <img src="../assets/img/p9.jpg" width="40" height="40" class="rounded-circle" alt="">
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">JC Mangany <br> <small class="text-muted">35 follows en communs</small></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="../assets/js/jquery-3.4.0.min.js"></script>
+<script src="../assets/js/angular.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/mdb.min.js"></script>
+<script src="../assets/js/all.min.js"></script>
+</body>
+</html>
